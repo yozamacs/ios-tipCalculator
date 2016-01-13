@@ -12,6 +12,7 @@
 		1D0CD0211C44DEF00038D2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0CD01F1C44DEF00038D2D9 /* Main.storyboard */; };
 		1D0CD0231C44DEF00038D2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0CD0221C44DEF00038D2D9 /* Assets.xcassets */; };
 		1D0CD0261C44DEF00038D2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0CD0241C44DEF00038D2D9 /* LaunchScreen.storyboard */; };
+		1D0CD0301C4651C80038D2D9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CD02F1C4651C80038D2D9 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1D0CD0221C44DEF00038D2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0CD0251C44DEF00038D2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0CD0271C44DEF00038D2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0CD02F1C4651C80038D2D9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1D0CD01A1C44DEF00038D2D9 /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				1D0CD02F1C4651C80038D2D9 /* SettingsViewController.swift */,
 				1D0CD01B1C44DEF00038D2D9 /* AppDelegate.swift */,
 				1D0CD01D1C44DEF00038D2D9 /* ViewController.swift */,
 				1D0CD01F1C44DEF00038D2D9 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1D0CD01E1C44DEF00038D2D9 /* ViewController.swift in Sources */,
 				1D0CD01C1C44DEF00038D2D9 /* AppDelegate.swift in Sources */,
+				1D0CD0301C4651C80038D2D9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				1D0CD02C1C44DEF00038D2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
